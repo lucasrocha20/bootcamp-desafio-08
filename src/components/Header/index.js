@@ -33,5 +33,5 @@ export default function Header({ navigation }) {
 Header.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func,
-  }).isRequired,
+  }).isRequired(),
 };
